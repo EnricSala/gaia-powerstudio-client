@@ -1,0 +1,10 @@
+{
+    "powerstudio": {
+        "baseUrl": "http://localhost:1025",
+        "valuesPath": "/services/user/values.xml",
+        "timeout": 1000,
+        "batchSize": 50
+    },
+    "idsFile": "/home/enric/gaia/ids.txt",
+    "outputDir": "/home/enric/gaia/snapshots"
+}

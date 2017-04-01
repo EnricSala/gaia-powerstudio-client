@@ -1,0 +1,24 @@
+{
+    "name": "gaia-powerstudio-client",
+    "version": "0.0.1",
+    "description": "Gaia Platform client for PowerStudio",
+    "private": true,
+    "scripts": {
+        "start": "node ./src/app.js",
+        "watch": "nodemon --watch src/ src/app.js"
+    },
+    "author": "Enric Sala",
+    "dependencies": {
+        "axios": "^0.15.3",
+        "cron": "^1.2.1",
+        "fs-jetpack": "^0.13.1",
+        "moment": "^2.18.0",
+        "rxjs": "^5.2.0",
+        "xml2js": "^0.4.17"
+    },
+    "devDependencies": {
+        "eslint": "^3.18.0",
+        "eslint-config-google": "^0.7.1",
+        "nodemon": "^1.11.0"
+    }
+}
